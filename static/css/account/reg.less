@@ -1,0 +1,131 @@
+.reg-wrapper{
+    width: 100%;
+    height: 520px;
+    background-color: #e0e0e0;
+    position: relative;
+    img{
+      width: 100%;
+      height: 520px;
+    }
+    .reg-container{
+      width: 400px;
+      height: 400px;
+      background-color: #ffffff;
+      float: right;
+      margin: 60px 5% 60px 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      .title{
+        font-size: 18px;
+        margin: 30px;
+        margin-bottom: 10px;
+        float: left;
+      }
+      .go-login{
+        font-size: 14px;
+        float: right;
+        margin-right: 30px;
+        color: #3d86f4;
+        display: inline-block;
+        margin-top: 30px;
+      }
+      .error{
+        width: 100%;
+        height: 30px;
+        border: 0;
+        clear: both;
+        padding-left: 30px;
+        color: #ff5073;
+        font-size: 14px;
+      }
+      .reg-form{
+        clear: both;
+        width: 340px;
+        margin-left: 30px;
+        li{
+          height: 40px;
+          margin-bottom: 15px;
+          input{
+            width: 322px;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 8px;
+            border: 1px solid #AFAFAF;
+          }
+          input.auth-code{
+            width: 200px;
+            margin-right: 20px;
+          }
+          .sendCode{
+            width: 100px;
+            height: 38px;
+            vertical-align: top;
+            background: #ffffff;
+            border: 1px solid #ff5073;
+            border-radius: 5px;
+            color: #ff5073;
+            font-size: 14px;
+            cursor: pointer;
+          }
+        }
+        li.reg-sub{
+          margin-bottom: 10px;
+          input{
+            cursor: pointer;
+          }
+        }
+        .reg-sub input{
+          width: 340px;
+          color: #ffffff;
+          background: #ff5073;
+          border: 0;
+          font-size: 20px;
+        }
+      }
+      .forget{
+        float: right;
+        font-size: 14px;
+        margin-right: 30px;
+      }
+      .third-reg{
+        position: absolute;
+        bottom: 0;
+        height: 55px;
+        width: 370px;
+        border-top: 1px solid #dcdcdc;
+        padding-left: 30px;
+        font-size: 14px;
+        span{
+          line-height: 55px;
+        }
+        #wechat{
+          width: 30px;
+          height: 24px;
+          display: inline-block;
+          position: absolute;
+          top: 12px;
+          left: 180px;
+          background: url('/img/wechatIn.png') 0 0 no-repeat;
+        }
+        #weibo{
+          width: 30px;
+          height: 24px;
+          display: inline-block;
+          position: absolute;
+          top: 12px;
+          left: 240px;
+          background: url('/img/weiboIn.png') 0 0 no-repeat;
+        }
+        #qq{
+          width: 23px;
+          height: 24px;
+          display: inline-block;
+          position: absolute;
+          top: 12px;
+          left: 300px;
+          background: url('/img/qqIn.png') 0 0 no-repeat;
+        }
+      }
+    }
+}

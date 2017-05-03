@@ -1,0 +1,20 @@
+/*
+* @Author: derek
+* @Date:   2017-02-27 21:51:21
+* @Last Modified by:   derek
+* @Last Modified time: 2017-02-27 21:51:30
+*/
+
+#right-wrapper .con .payment li{
+    font-weight:bold;
+    font-size:16px;
+    line-height:30px;
+    margin-bottom:10px;
+}
+#right-wrapper .con .payment p{
+    padding-left:26px;
+    font-weight:normal;
+    font-size:14px;
+    line-height:26px;
+
+}

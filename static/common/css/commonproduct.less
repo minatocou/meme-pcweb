@@ -1,0 +1,77 @@
+.com-product-item{
+    height: 100%;
+            a{
+                float: left;
+                display: block;
+                .image{
+                    width: 250px;
+                    height: 350px;
+                    padding: 30px 30px 0 30px;
+                    i{
+                        position: absolute;
+                        width: 40px;
+                        height: 40px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    img{
+                        width: 250px;
+                        height: 250px;
+                    }
+                    .name{
+                        color: #5C5C5C;
+                        margin-top: 20px;
+                        div{
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                            height: 40px;
+                            margin-bottom: 5px;
+                        }
+                        div.brand{
+                            -webkit-line-clamp: 1;
+                            height: 20px;
+                        }
+                    }
+                    .price{
+                        margin-top: 10px;
+                        del{
+                            color: #aaa;
+                        }
+                        p{
+                            margin: 0;
+                            color: #ff5073;
+                        }
+                    }
+                }
+            }
+            .shop{
+                position: absolute;
+                height: 44px;
+                width: 100%;
+                bottom: 20px;
+                margin: 0;
+                .cart{
+                    width: 110px;
+                    height: 44px;
+                    line-height: 44px;
+                    background-color: #ddd;
+                    color: #333;
+                    position: absolute;
+                    font-size: 12px;
+                    cursor: pointer;
+                    left: 100px;
+                }
+                .cart:hover{
+                    color: #ffffff;
+                    background-color: #ff5073;
+                }
+            }
+        }
+        .product-item:hover{
+                box-shadow: 0px 0px 10px #b2b2b2;
+        }

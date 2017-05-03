@@ -1,0 +1,22 @@
+/*
+* @Author: derek
+* @Date:   2017-02-27 21:52:25
+* @Last Modified by:   derek
+* @Last Modified time: 2017-02-27 21:52:26
+*/
+#right-wrapper .con .logistics{
+    line-height:26px;
+}
+#right-wrapper .con .logistics li{
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:10px;
+}
+#right-wrapper .con .logistics ol{
+    padding-left:20px;
+}
+#right-wrapper .con .logistics ol li{
+    font-size: 14px;
+    font-weight:normal;
+    margin-bottom:0;
+}

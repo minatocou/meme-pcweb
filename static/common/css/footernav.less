@@ -1,0 +1,107 @@
+ul{
+    list-style: none;
+}
+#right-wrapper {
+    float: right;
+    width: 75%;
+    margin: 20px 2% 20px 0;
+}
+
+#leftnav-wrapper {
+    margin: 20px 10px 20px 5%;
+    width: 15%;
+    border: 1px solid #eaeaea;
+    float: left;
+}
+#leftnav-wrapper .leftnav-title {
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #eaeaea;
+}
+#leftnav-wrapper .leftnav-items{
+    ul {
+        padding: 10px 20px;
+        list-style: none;
+        border-bottom: 1px solid #eaeaea;
+        margin-bottom: 0;
+        li {
+            padding: 10px 0;
+            font-size: 14px;
+        }
+    }
+}
+#leftnav-wrapper .leftnav-items:last-child ul {
+    border-bottom: 0;
+}
+
+#right-wrapper .footer-static-container {
+    border: 1px solid #eaeaea;
+    min-height: 100px;
+    margin-left: 0;
+}
+
+#leftnav-wrapper .current > a {
+    color: #ff5c7c;
+}
+#leftnav-wrapper .leftnav-unfold {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/img/leftnav-unfold.png") no-repeat center center;
+    float: right;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+#leftnav-wrapper .leftnav-fold {
+    background: url("/img/leftnav-fold.png") no-repeat center center;
+}
+
+#leftnav-wrapper .leftnav-sub-unfold {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/img/leftnav-unfold.png") no-repeat center center;
+    float: right;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+#leftnav-wrapper .leftnav-sub-fold {
+    background: url("/img/leftnav-fold.png") no-repeat center center;
+}
+
+#leftnav-wrapper .leftnav-items ul .left-nav-list {
+    border-bottom: 0;
+    padding: 5px 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+#leftnav-wrapper .leftnav-items ul .left-nav-list li {
+    padding: 5px 0;
+}
+#right-wrapper .title {
+    height: 60px;
+    font-size: 20px;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: bold;
+    line-height: 60px;
+    padding-left: 36px;
+}
+#right-wrapper .con {
+    padding: 36px;
+    .con-title {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+}
+#right-wrapper .footer-static-container img{
+    max-width: 100%;
+}

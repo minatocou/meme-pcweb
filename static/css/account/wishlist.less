@@ -1,0 +1,73 @@
+.my-wrapper{
+    float: left;
+    width: 72%;
+    margin-left: 2%;
+    background: #ffffff;
+    .my-wishlist{
+        padding: 20px;
+        .title{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .wishlist-table{
+            width: 100%;
+            border: 1px solid #e5e5e5;
+            font-size: 14px;
+            color: #666;
+            border-collapse: collapse;
+            th{
+                font-weight: normal;
+            }
+            thead{
+                tr{
+                    background-color: #eee;
+                    border-bottom: 1px solid #e5e5e5;
+                }
+                th{
+                    padding: 10px 15px;
+                    text-align: center;
+                    vertical-align: top;
+                }
+            }
+            tbody{
+                tr{
+                    border: 1px solid #e5e5e5;
+                    height: 100px;
+                }
+                td{
+                    text-align: center;
+                    a{
+                        cursor: pointer;
+                    }
+                    .addcart{
+                        line-height: 20px;
+                        display: inline-block;
+                        color: #fff;
+                        font-size: 14px;
+                        border: 0;
+                        cursor: pointer;
+                        padding: 5px 10px;
+                        background-color: #e95070;
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        border-radius: 4px;
+                    }
+                }
+                td.fir{
+                    text-align: left;
+                    padding-left: 120px;
+                        a{
+                            float: left;
+                            position: relative;
+                            margin-left: -100px;
+                            img{
+                                width: 76px;
+                                height: 76px;
+                                border: 1px solid #e5e5e5;
+                            }
+                        }
+                }
+            }
+        }
+    }
+}

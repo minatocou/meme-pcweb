@@ -1,0 +1,173 @@
+.cartload{
+    ul{
+        li.first,li.second,li.third{
+            span{
+                background: #ff5073;
+            }
+            p{
+                color: #ff5073;
+            }
+        }
+        li.first i,li.second i{
+            background: #ff5073;
+        }
+    }
+}
+.search-wrapper,.app-qrcode{
+    display: none;
+}
+.main-container{
+    background: #ffffff;
+}
+.checkout-order-wrapper{
+    padding-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    .order-top{
+        border: 1px solid #e5e5e5;
+        background: #fafff2;
+        margin-bottom: 20px;
+        padding: 27px 30px 27px 17px;
+        .success{
+            font-size: 20px;
+            color: rgb(100, 161, 50);
+            margin-bottom: 15px;
+            line-height: 34px;
+        }
+        .tips{
+            font-size: 14px;
+            margin-left: 46px;
+            display: inline;
+        }
+    }
+    .order-address{
+        .info-title{
+            font-size: 18px;
+            margin-bottom: 20px;
+            margin-top: 37px;
+        }
+        .info-detail span{
+            font-size: 14px;
+            color: #333333;
+            margin-bottom: 10px;
+            min-height: 20px;
+            width: 100%;
+            display: inline-block;
+            p{
+                color: #666;
+                font-size: 14px;
+                color: #999999;
+                text-align: left;
+                width: 60px;
+                display: block;
+                float: left;
+                margin: 0 38px 0 0;
+            }
+        }
+    }
+    .order-detail{
+        margin-top: 20px;
+        .payment{
+            border: 1px solid #e5e5e5;
+            margin-bottom: 20px;
+            overflow: hidden;
+            .pay-head{
+                background: #f9f9f9;
+                height: 47px;
+                line-height: 47px;
+                border-bottom: 1px solid #e5e5e5;
+                .label{
+                    margin-left: 18px;
+                    font-size: 20px;
+                    margin-right: 15px;
+                    float: left;
+                }
+                .mecoin{
+                    margin-left: 20px;
+                    font-size: 14px;
+                    color: #333333;
+                    float: left;
+                }
+                .orderno{
+                    color: #333333;
+                    font-size: 14px;
+                    margin-right: 16px;
+                    float: right;
+                }
+            }
+            .pay-body{
+                margin: 20px;
+                overflow: hidden;
+                padding-left: 80px;
+                a{
+                    float: left;
+                    position: relative;
+                    margin-left: -80px;
+                    img{
+                        width: 60px;
+                        height: 60px;
+                        border: 1px solid #e5e5e5;
+                    }
+                }
+                .name{
+                    height: 60px;
+                    line-height: 60px;
+                    float: left;
+                }
+                .num{
+                    float: right;
+                    margin-top: 20px;
+                }
+            }
+            .pay-total{
+                margin: 20px;
+                .chosen{
+                    background: url(/img/order-icon.png) 0 0 no-repeat;
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 5px;
+                    display: inline-block;
+                }
+                .zfb{
+                    background: url(/img/zfb.png) 0 0 no-repeat;
+                    width: 28px;
+                    height: 28px;
+                    margin-left: 26px;
+                    margin-right: 9px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                span{
+                    height: 28px;
+                    line-height: 28px;
+                    vertical-align: top;
+                    display: inline-block;
+                    font-size: 20px;
+                }
+                .amount{
+                    float: right;
+                    color: #ff5073;
+                    font-size: 20px;
+                }
+            }
+            .pay-bot{
+                border-top: 1px solid #e5e5e5;
+                height: 40px;
+                padding: 10px;
+                a{
+                    width: 128px;
+                    height: 42px;
+                    border-radius: 5px;
+                    line-height: 42px;
+                    text-align: center;
+                    color: #ffffff;
+                    border: 0;
+                    outline: none;
+                    display: block;
+                    float: right;
+                    background: #ff5073;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.main-container{
+    padding-top: 20px;
+    background: #ffffff;
+    .search-result-wrapper{
+        .search-result-container{
+            .ops.left{
+                width: 14%;
+                margin-left: 2%;
+                float: left;
+                overflow-y: scroll;
+                max-height: 800px;
+                .el-col.el-col-8{
+                    width: 100%;
+                    .el-menu.out{
+                        height: 800px;
+                    }
+                    .el-menu{
+                        overflow-y: scroll;
+                    }
+                    li.el-menu-item{
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 84%;
+                .gosearch{
+                    text-align: center;
+                    margin-bottom: 30px;
+                    .cancelsort{
+                        display: inline-block;
+                        .el-tag{
+                            margin-right: 10px;
+                            height: 36px;
+                            line-height: 36px;
+                        }
+                    }
+                    .orderby{
+                        display: inline-block;
+                        .pri{
+                            position: relative;
+                            padding-right: 24px;
+                            .pri-t{
+                                margin-right: 5px;
+                            }
+                            i.el-icon-caret-top{
+                                position: absolute;
+                                top: 5px;
+                            }
+                            i.el-icon-caret-bottom{
+                                position: absolute;
+                                bottom: 5px;
+                            }
+                            i:hover{
+                                color: #ff5073;
+                            }
+                        }
+                    }
+                    .pageblock{
+                        display: inline-block;
+                        height: 36px;
+                        line-height: 36px;
+                        vertical-align: top;
+                    }
+                }
+                .pros{
+                    margin: 0 auto;
+                    .ser-pro{
+                        width: 310px;
+                        height: 500px;
+                        margin:0 13px 20px 13px;
+                        position: relative;
+                        text-align: center;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}

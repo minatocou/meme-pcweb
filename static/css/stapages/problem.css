@@ -1,0 +1,32 @@
+#right-wrapper .con .problem{
+    line-height:26px;
+}
+#right-wrapper .con .problem>div{
+    margin-bottom:40px;
+}
+#right-wrapper .con .problem li{
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:10px;
+}
+#right-wrapper .con .problem div>p{
+    font-size:14px;
+    padding-left:8px;
+}
+#right-wrapper .con .problem ol{
+    padding-left:24px;
+}
+#right-wrapper .con .problem ol li{
+    font-size: 14px;
+    font-weight:normal;
+    margin-bottom:0;
+}
+#right-wrapper .con .problem ol li p{
+    padding-left:20px;
+}
+#right-wrapper .con .problem .problem-title{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:10px;
+    margin-left: -10px;
+}

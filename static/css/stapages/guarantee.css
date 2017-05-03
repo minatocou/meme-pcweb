@@ -1,0 +1,47 @@
+/*
+* @Author: derek
+* @Date:   2017-02-27 21:53:15
+* @Last Modified by:   derek
+* @Last Modified time: 2017-02-27 21:53:30
+*/
+
+.guarantee-con{
+    padding:40px;
+}
+.guarantee-con .brand-guarantee {
+    padding-bottom:40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eaeaea;
+}
+.guarantee-con>div img{
+    width:100%;
+}
+.guarantee-con>div ul{
+    overflow:hidden;
+    margin:10px 0;
+}
+.guarantee-con>div ul li{
+    float:left;
+    margin-bottom:10px;
+    width: 429px;
+    overflow: hidden;
+}
+.guarantee-con>div ul li:nth-child(2n+1){
+    margin-right:10px;
+}
+#right-wrapper .guarantee-con>div ul img{
+    height: 298px;
+}
+.intro{
+    margin-top:20px;
+    color:#333;
+}
+.intro h3{
+    font-size:16px;
+    font-weight:bold;
+    line-height:30px;
+}
+.intro p{
+    font-size:14px;
+    line-height:26px;
+}

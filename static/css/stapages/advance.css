@@ -1,0 +1,67 @@
+/*
+* @Author: derek
+* @Date:   2017-02-27 19:41:36
+* @Last Modified by:   Derek
+* @Last Modified time: 2017-03-23 23:46:34
+*/
+.self-brand-item{
+    padding-bottom:40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eaeaea;
+}
+.self-brand-item:last-child{
+    border-bottom:0;
+    margin-bottom:0;
+}
+.self-brand-item img{
+    width:100%;
+}
+.el-carousel img{
+    height: 300px;
+}
+.intro{
+    margin-top:15px;
+    color:#333;
+}
+.intro h3{
+    font-size:16px;
+    line-height:30px;
+    margin-bottom:5px;
+}
+.intro p{
+    font-size:14px;
+    line-height:26px;
+}
+.swiper-slide img{
+    height: 100%;
+}
+.proxy-brand{
+    margin-bottom:30px;
+}
+.proxy-brand ul{
+    overflow:hidden;
+}
+.proxy-brand ul li{
+    float:left;
+    width:211px;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+.proxy-brand ul li:nth-child(4n+4){
+    margin-right:0;
+}
+.proxy-brand ul li img{
+    width:100%;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+.swiper-slide {
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+.proxy-qualify-container {
+    height: 210px;
+}
+.self-qualify-container {
+    height: 212px;
+}

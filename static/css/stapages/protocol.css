@@ -1,0 +1,16 @@
+/*
+* @Author: derek
+* @Date:   2017-02-27 21:48:53
+* @Last Modified by:   derek
+* @Last Modified time: 2017-02-27 21:49:08
+*/
+.protocol{
+    font-size: 14px;
+    line-height: 26px;
+}
+.protocol p{
+    margin-bottom:10px;
+}
+.protocol .protocol-con{
+    text-indent:2em;
+}

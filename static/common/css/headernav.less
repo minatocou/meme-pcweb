@@ -1,0 +1,78 @@
+.headernav{
+    .header-nav-container{
+        position: relative;
+        height: 60px;
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        margin-top: 20px;
+        .nav-type-left{
+            position: absolute;
+            width: 8%;
+            left: 2%;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            min-width: 160px;
+            .tit{
+                cursor: pointer;
+            }
+            .el-col-8{
+                display: none;
+                width: 100%;
+                overflow-y: scroll;
+                z-index: 999;
+                position: absolute;
+                height: 480px;
+                .el-menu-left{
+                    height: auto;
+                    background-color: #ffffff;
+                    min-height: 480px;
+                    background: rgba(3, 3, 3, .5);
+                    color: #ffffff;
+                    .el-menu-item, .el-submenu__title{
+                        color: #ffffff;
+                    }
+                    .el-menu-item:hover, .el-submenu__title:hover{
+                        background-color: #ff5073;
+                    }
+                    .el-submenu .el-menu{
+                        background: rgba(3, 3, 3, .5);
+                    }
+                }
+            }
+            .el-col-8.show{
+                display: block;
+                 // height: 800px;
+                 // .el-menu-left{
+                 //    min-height: 800px;
+                 // }
+            }
+        }
+        .nav-type-top{
+            position: absolute;
+            top: 0;
+            left: 15%;
+            width: 80%;
+            height: 60px;
+            overflow: hidden;
+            .el-menu-all{
+                background: #ffffff;
+                > li{
+                    min-width: 8%;
+                    padding: 0 1%;
+                    text-align: center;
+                }
+                .el-menu{
+                    max-height: 463px;
+                    overflow-y: scroll;
+                }
+            }
+            .el-submenu__title{
+                padding: 0;
+            }
+            .el-menu--horizontal>.el-menu-item:hover, .el-menu--horizontal>.el-submenu.is-active .el-submenu__title, .el-menu--horizontal>.el-submenu:hover .el-submenu__title{
+                border-bottom: 5px solid #ff5073;
+            }
+        }
+    }
+}

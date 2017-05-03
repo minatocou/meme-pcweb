@@ -1,0 +1,14 @@
+/*
+* @Author: derek
+* @Date:   2017-02-27 21:44:17
+* @Last Modified by:   derek
+* @Last Modified time: 2017-02-27 21:44:27
+*/
+#right-wrapper .con .shipment li{
+    margin-bottom:10px;
+    font-size: 14px;
+    line-height:26px;
+}
+#right-wrapper .con .shipment ol li{
+    margin-bottom:0;
+}

@@ -1,0 +1,30 @@
+/*
+* @Author: derek
+* @Date:   2017-02-27 19:42:36
+* @Last Modified by:   Derek
+* @Last Modified time: 2017-03-23 23:40:02
+*/
+.con>div{
+    margin-bottom:40px;
+}
+.globallayout img{
+    width:100%;
+    border: 1px solid #eaeaea;
+}
+.swiper-slide img{
+    width:100%;
+}
+.intro{
+    margin-top:15px;
+    color:#333;
+}
+.global-development-container img{
+    width:304px;
+}
+.global-development-container .swiper-slide{
+    width:auto;
+}
+.el-carousel img{
+    height: 300px;
+    width: 100%;
+}

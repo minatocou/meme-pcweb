@@ -1,0 +1,25 @@
+/*
+* @Author: derek
+* @Date:   2017-02-27 21:45:05
+* @Last Modified by:   derek
+* @Last Modified time: 2017-02-27 21:45:06
+*/
+.serve-protocol{
+    font-size:14px;
+    line-height:26px;
+}
+.serve-protocol .protocol-con{
+    text-indent:2em;
+    margin-bottom:5px;
+}
+.serve-protocol>div>p{
+    font-size:18px;
+    font-weight:bold;
+    margin:20px 0 10px;
+}
+.serve-protocol>div ul>li{
+    margin-bottom:10px;
+}
+.serve-protocol>div ul>li>p,.serve-protocol>div ul>li>ol{
+    padding-left:24px;
+}
